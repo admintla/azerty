@@ -5,5 +5,5 @@ fetch("https://hcm55preview.sapsf.eu/sf/logout?bplte_company=LVMHTT18", { mode: 
     });
   })
   .then(function() {
-    window.open("https://azjvwrftk.accounts.ondemand.com/saml2/idp/sso?sp=https://www.successfactors.com/LVMHTT6&idp=https://azjvwrftk.accounts.ondemand.com", "_blank");
+    window.open("https://hcm55preview.sapsf.eu/login?company=LVMHTT6", "_blank");
   });
